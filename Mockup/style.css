@@ -1,0 +1,52 @@
+body{
+    background-color: #F5E0C6;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #051f3d;
+    display: flex;
+    width : 100%;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+}
+
+.Nav{
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.cajabuscar{
+    display: flex;
+    margin-left: 50px;
+}
+
+.acercade{
+    color: white;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.contacto{
+    color: white;
+    margin-right: 75px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.servicio{
+    color: white;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.carrito{
+    background-color: white;
+    border-radius: 200px;
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+}
