@@ -21,9 +21,13 @@ body {
   margin-left: 50px;
 }
 
-.cajabuscar {
-  display: flex;
+#buscarform .form-control,
+#buscarform .btn {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #051f3d;
   margin-left: 50px;
+  margin-top: 5px;
 }
 
 .acercade {
@@ -132,6 +136,22 @@ body {
 
 .card-text {
   color: #051f3d;
+}
+
+.btn-solid{
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #051f3d;
+  --bs-btn-border-color: #051f3d;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #082f5c;
+  --bs-btn-hover-border-color: #072952;
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #031429;
+  --bs-btn-active-border-color: #020f1f;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .sumar {
