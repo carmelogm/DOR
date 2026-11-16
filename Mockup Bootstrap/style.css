@@ -1,0 +1,215 @@
+body {
+  background-color: #f5e0c6;
+  margin: 0;
+  padding: 0;
+}
+
+/* ================ */
+
+.header {
+  background-color: #051f3d;
+  display: flex;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  align-items: center;
+}
+
+.Nav {
+  color: white;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.cajabuscar {
+  display: flex;
+  margin-left: 50px;
+}
+
+.acercade {
+  color: white;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.contacto {
+  color: white;
+  margin-right: 75px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.servicio {
+  color: white;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.carrito {
+  background-image: url("/carrito.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50px 30px;
+  background-color: white;
+  border-radius: 200px;
+  width: 70px;
+  height: 70px;
+  margin-right: 50px;
+}
+
+/* ================ */
+
+.filtrosordenar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtros {
+  background-color: #051f3d;
+  border-radius: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.ordenar {
+  background-color: #051f3d;
+  border-radius: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+/* ================ */
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border: 3px solid #051f3d;
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  margin: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-body {
+  padding: 0 20px;
+}
+
+.card-title {
+  margin-top: 20px;
+  color: #051f3d;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.card-text {
+  color: #051f3d;
+}
+
+.sumar {
+  display: flex;
+  background-color: #051f3d;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 200px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 25px;
+  margin-top: -50px;
+}
+
+/* ================ */
+
+.paginacion {
+  display: flex;
+  margin-top: 20px;
+}
+
+.pag {
+  margin-left: 50px;
+  font-size: 30px;
+  color: #051f3d;
+}
+
+.flechaI {
+  margin-top: 20px;
+  background-color: #051f3d;
+  width: 50px;
+  height: 50px;
+  border-radius: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: auto;
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+}
+.flechaD {
+  margin-top: 20px;
+  display: flex;
+  margin-right: 50px;
+  background-color: #051f3d;
+  width: 50px;
+  height: 50px;
+  border-radius: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* ================ */
+
+.pie {
+  margin-top: 50px;
+  background-color: #051f3d;
+  display: flex;
+  width: 100%;
+  height: 250px;
+  flex-wrap: wrap;
+}
+
+.piedep {
+  color: white;
+  margin: 20px;
+  font-weight: bold;
+  margin-left: 120px;
+  margin-top: 50px;
+}

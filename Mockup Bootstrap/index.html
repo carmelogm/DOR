@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="Nav">Navegación</h1>
+
+      <div class="cajabuscar">
+        <form method="get" id="buscarform">
+          <input type="text" id="s" placeholder="Buscar..." />
+          <button type="submit">Buscar</button>
+        </form>
+      </div>
+
+      <p class="acercade">Acerca de</p>
+
+      <p class="servicio">Servicio</p>
+
+      <p class="contacto">Contact</p>
+
+      <div class="carrito"></div>
+    </div>
+
+    <div class="filtrosordenar">
+      <div class="filtros">Filtrar por</div>
+      <div class="ordenar">Ordenar por</div>
+    </div>
+
+    <div class="productos">
+      <section class="card" style="max-width: 320px">
+        <img src="platano.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h2 class="card-title">Pátano</h4>
+          <p class="card-text">Origen: Canarias</p>
+          <a href="#" class="btn-solid-card theme-primary">+</a>
+        </div>
+      </section>
+    </div>
+
+    <div class="paginacion">
+      <p class="pag">Página 1</p>
+      <div class="flechaI"><</div>
+      <div class="flechaD">></div>
+    </div>
+
+    <div class="pie">
+      <p class="piedep">Aviso Legal</p>
+      <p class="piedep">Políticas de Privacidad</p>
+      <p class="piedep">Cookies</p>
+      <p class="piedep">Dónde Estamos</p>
+      <p class="piedep">Privacidad</p>
+      <p class="piedep">Accesibilidad</p>
+    </div>
+  </body>
+</html>
