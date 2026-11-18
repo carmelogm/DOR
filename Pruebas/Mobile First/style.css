@@ -1,0 +1,61 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "h h"
+    "m m"
+    "n n"
+    "f f";
+}
+
+.h {
+  grid-area: h;
+}
+
+.n {
+  grid-area: n;
+}
+
+.m {
+  grid-area: m;
+}
+
+.f {
+  grid-area: f;
+}
+
+@media (min-width: 800px) {
+  body {
+    grid-template-areas:
+      "h h"
+      "n n"
+      "m m"
+      "f f";
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    grid-template-areas:
+      "h h"
+      "n m"
+      "n m"
+      "f f";
+  }
+}
+
+.header {
+  background-color: blue;
+}
+
+.nav {
+  background-color: red;
+}
+
+.main {
+  background-color: salmon;
+}
+
+.footer {
+  background-color: lightblue;
+}
